@@ -30,3 +30,21 @@ const phoneticMapper = {
 	'8': 'Eight',
 	'9': 'Nine'
 };
+
+function numericToPhonetic(numbers, phoneticMapper) {
+	for (let i = 0; i < numbers.length; i++) {
+		for (let j = 0; j < numbers[i].length; j++) {
+			// print the mapped phonetic representation of a digit
+			process.stdout.write(phoneticMapper[numbers[i][j]]);
+		}
+		// print comma to separate integers
+		if (i < numbers.length - 1) {
+			process.stdout.write(',');
+		}
+		else {
+			process.stdout.write('\n');
+		}
+	}
+}
+
+numericToPhonetic(inputNumbers, phoneticMapper);
