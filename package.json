@@ -1,0 +1,19 @@
+{
+  "name": "kg_renanernest_2021",
+  "version": "1.0.0",
+  "description": "Numeric integer array to phonetic integer converter",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RenanErnest/kg_renanernest_2021.git"
+  },
+  "author": "Renan Ernesto Silva Pinto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RenanErnest/kg_renanernest_2021/issues"
+  },
+  "homepage": "https://github.com/RenanErnest/kg_renanernest_2021#readme"
+}
