@@ -15,6 +15,11 @@ doing that we would reduce our space complexity to O(1).
 Chosen approach:
 Time complexity - O(n*m) where n is the number of integers received as input and m is the size of the longest integer in terms of digit
 Space complexity - O(1)
+
+Note: my intention was having a branch main on my repo and then checkout to a new branch named feature, publish the commits there and do 
+a pull request into main. However I messed up in the beggining creating the branch feature before main.
+Now I published the main branch and configured it to be the default branch. This last commit adding this note will be pull requested to main.
+Sorry for that.
 */
 
 const inputNumbers = process.argv.slice(2);
